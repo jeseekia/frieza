@@ -1,4 +1,67 @@
+@font-face {
+    font-family: "Molot";
+    src: url("font/molot/Molot.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+
+html {
+  font-size: 18px;
+}
+
 body {
-  background-color: #633183;
+  background-color: #eff8f3;
   color: #eff8f3;
+  font-family: "Changa", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Molot", serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+ol {
+  list-style-position: inside;
+  padding-inline-start: 0;
+}
+
+main {
+  background-color: #633183;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#img-div {
+  background-color: #e9d771;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  color: #633183;
+  padding-bottom: 20px;
+}
+
+#image {
+  max-width: 80%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  margin: 0 auto;
 }
